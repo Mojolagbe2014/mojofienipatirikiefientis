@@ -12,7 +12,7 @@ $email =''; $name =''; $subject=''; $message; $body = '';
 
 include('../includes/other-settings.php');
 
-if(!isset($_SESSION['ITCLoggedInAdmin']) || !isset($_SESSION["ITCadminEmail"])){ 
+if(!isset($_SESSION['VPELoggedInAdmin']) || !isset($_SESSION["VPEadminEmail"])){ 
     $json = array("status" => 0, "msg" => "You are not logged in."); 
     echo json_encode($json);
 }

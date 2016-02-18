@@ -25,9 +25,9 @@ if(filter_input(INPUT_POST, "loginstuff")!=NULL){
     if(count($errorArr) < 1)   {
         $logingInAdmin = json_decode($adminObj->fetch("*", "  email LIKE '".$adminObj->email."' AND password LIKE  '".$adminObj->passWord."' ", " id "));
         if($logingInAdmin->status === 1){
-            $_SESSION['ITCLoggedInAdmin'] = true; $_SESSION['ITCAdminName'] = $logingInAdmin->info[0]->userName;
-            $_SESSION['ITCadminId'] = $logingInAdmin->info[0]->id; $_SESSION['ITCadminEmail'] = $logingInAdmin->info[0]->email;
-            $_SESSION['ITCadminRole'] = $logingInAdmin->info[0]->role;
+            $_SESSION['VPELoggedInAdmin'] = true; $_SESSION['VPEAdminName'] = $logingInAdmin->info[0]->userName;
+            $_SESSION['VPEadminId'] = $logingInAdmin->info[0]->id; $_SESSION['VPEadminEmail'] = $logingInAdmin->info[0]->email;
+            $_SESSION['VPEadminRole'] = $logingInAdmin->info[0]->role;
             header('Content-type: application/json');
             echo json_encode($logingInAdmin);
         }

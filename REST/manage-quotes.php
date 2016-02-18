@@ -9,7 +9,7 @@ $quoteObj = new Quote($dbObj); // Create an object of Quote class
 $errorArr = array(); //Array of errors
 $oldMedia = ""; $newMedia =""; $quoteImg ="";
 
-if(!isset($_SESSION['ITCLoggedInAdmin']) || !isset($_SESSION["ITCadminEmail"])){ 
+if(!isset($_SESSION['VPELoggedInAdmin']) || !isset($_SESSION["VPEadminEmail"])){ 
     $json = array("status" => 0, "msg" => "You are not logged in."); 
     echo json_encode($json);
 }

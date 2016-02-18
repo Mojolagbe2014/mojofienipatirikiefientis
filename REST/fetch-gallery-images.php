@@ -4,7 +4,7 @@ define("CONST_FILE_PATH", "../includes/constants.php");
 include ('../classes/WebPage.php'); //Set up page as a web page
 $thisPage = new WebPage(); //Create new instance of webPage class
 
-if(!isset($_SESSION['ITCLoggedInAdmin']) || !isset($_SESSION["ITCadminEmail"])){ 
+if(!isset($_SESSION['VPELoggedInAdmin']) || !isset($_SESSION["VPEadminEmail"])){ 
     $json = array("status" => 0, "msg" => "You are not logged in."); 
     echo json_encode($json);
 }
