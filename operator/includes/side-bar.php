@@ -11,9 +11,9 @@
                         </ul>
                     </li>
                     <?php } ?>
-                    <li> <a href="#"><i class="fa fa-briefcase fa-2x"></i>Course Categories<span class="fa arrow"></span></a>
+<!--                    <li> <a href="#"><i class="fa fa-briefcase fa-2x"></i>Course Categories<span class="fa arrow"></span></a>
                         <ul class="nav nav-third-level">
-<!--                            <li> <a href="add-category">Add Course Category</a> </li>-->
+                            <li> <a href="add-category">Add Course Category</a> </li>
                             <li> <a href="manage-categories">Manage Categories</a> </li>
                         </ul>
                     </li>
@@ -22,17 +22,18 @@
                             <li><a href="add-course">Add Course</a> </li>
                             <li> <a href="manage-courses">Manage Courses</a> </li>
                         </ul>
-                    </li>  
-                    <li> <a href="#"><i class="fa fa-file fa-2x"></i> Brochure Manager<span class="fa arrow"></span></a>
+                    </li>  -->
+<!--                    <li> <a href="#"><i class="fa fa-file fa-2x"></i> Brochure Manager<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li> <a href="manage-brochures">Manage Brochures</a> </li>
                         </ul>
-                    </li>
-                    <li> <a href="#"><i class="fa fa-user fa-2x"></i> Subscribers<span class="fa arrow"></span></a>
+                        </li>-->
+                 <!--                    <li> <a href="#"><i class="fa fa-user fa-2x"></i> Subscribers<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li> <a href="manage-subscribers">Manage Subscribers</a> </li>
                         </ul>
-                    </li>
+                    </li>-->   
+
                     <li> <a href="#"><i class="fa fa-users fa-2x"></i> Team Members<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="add-tutor">Add Member</a> </li>
@@ -45,22 +46,21 @@
                             <li> <a href="manage-faq">Manage FAQs</a> </li>
                         </ul>
                     </li>
-                    <li> <a href="#"><i class="fa fa-bell-o fa-2x"></i> Upcoming Events Manager<span class="fa arrow"></span></a>
+                    <li> <a href="#"><i class="fa fa-bell-o fa-2x"></i> Events Manager<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li> <a href="manage-events">Add New Event</a> </li>
                             <li> <a href="manage-events">Manage Events</a> </li>
                         </ul>
                     </li>
-                    <li> <a href="#"><i class="fa fa-apple fa-2x"></i> Sponsors/Partners/Clients<span class="fa arrow"></span></a>
+                    <li> <a href="#"><i class="fa fa-apple fa-2x"></i> Clients<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li> <a href="manage-sponsors">Add Partners/Sponsors</a> </li>
                             <li> <a href="manage-sponsors">Manage Partners/Sponsors</a> </li>
                         </ul>
                     </li>
-                    <li> <a href="#"><i class="fa fa-quote-left fa-2x"></i> Quote Manager<span class="fa arrow"></span></a>
+                    <li> <a href="#"><i class="fa fa-check-circle-o fa-2x"></i> Testimonials Manager<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li> <a href="manage-quotes">Add Quote</a> </li>
-                            <li> <a href="manage-quotes">Manage Quotes</a> </li>
+                            <li> <a href="manage-testimonials">Manage Testimonials</a> </li>
                         </ul>
                     </li>
                     <li> <a href="#"><i class="fa fa-picture-o fa-2x"></i> Gallery Manager<span class="fa arrow"></span></a>
@@ -69,12 +69,12 @@
                             <li> <a href="manage-gallery">Manage Gallery</a> </li>
                         </ul>
                     </li>
-                    <li> <a href="#"><i class="fa fa-video-camera fa-2x"></i> Video Manager<span class="fa arrow"></span></a>
+<!--                    <li> <a href="#"><i class="fa fa-video-camera fa-2x"></i> Video Manager<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li> <a href="manage-videos">Add Video</a> </li>
                             <li> <a href="manage-videos">Manage Videos</a> </li>
                         </ul>
-                    </li>
+                    </li>-->
                     <?php if(isset($_SESSION['VPEadminEmail']) && $_SESSION['VPEadminEmail'] == trim(stripcslashes(strip_tags(Setting::getValue($dbObj, 'COMPANY_EMAIL'))))) { ?>
                     <li> <a href="#"><i class="fa fa-cog fa-2x"></i>Settings Manager<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
