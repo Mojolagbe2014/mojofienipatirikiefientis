@@ -11,11 +11,6 @@
                         </ul>
                     </li>
                     <?php } ?>
-                    <li> <a href="#"><i class="fa fa-question-circle fa-2x"></i> FAQs Manager<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li> <a href="manage-faq">Manage FAQs</a> </li>
-                        </ul>
-                    </li>
                     <li> <a href="#"><i class="fa fa-bell-o fa-2x"></i> Events Manager<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li> <a href="manage-events">Manage Events</a> </li>
@@ -45,6 +40,9 @@
                     </li>
                     <li>
                         <a  href="#" class="logout"><i class="fa fa-sign-out fa-2x"></i> Logout</a>
+                    </li>
+                    <li>
+                        <a  href="#" class="logout"></a>
                     </li>
                 </ul>
             </div>
