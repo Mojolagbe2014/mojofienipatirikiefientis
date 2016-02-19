@@ -13,20 +13,12 @@
                     <?php } ?>
                     <li> <a href="#"><i class="fa fa-question-circle fa-2x"></i> FAQs Manager<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li> <a href="manage-faq">Add FAQ</a> </li>
                             <li> <a href="manage-faq">Manage FAQs</a> </li>
                         </ul>
                     </li>
                     <li> <a href="#"><i class="fa fa-bell-o fa-2x"></i> Events Manager<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li> <a href="manage-events">Add New Event</a> </li>
                             <li> <a href="manage-events">Manage Events</a> </li>
-                        </ul>
-                    </li>
-                    <li> <a href="#"><i class="fa fa-apple fa-2x"></i> Clients<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li> <a href="manage-sponsors">Add Partners/Sponsors</a> </li>
-                            <li> <a href="manage-sponsors">Manage Partners/Sponsors</a> </li>
                         </ul>
                     </li>
                     <li> <a href="#"><i class="fa fa-check-circle-o fa-2x"></i> Testimonials Manager<span class="fa arrow"></span></a>
