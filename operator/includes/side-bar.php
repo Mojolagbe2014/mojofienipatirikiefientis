@@ -11,35 +11,6 @@
                         </ul>
                     </li>
                     <?php } ?>
-<!--                    <li> <a href="#"><i class="fa fa-briefcase fa-2x"></i>Course Categories<span class="fa arrow"></span></a>
-                        <ul class="nav nav-third-level">
-                            <li> <a href="add-category">Add Course Category</a> </li>
-                            <li> <a href="manage-categories">Manage Categories</a> </li>
-                        </ul>
-                    </li>
-                    <li> <a href="#"><i class="fa fa-folder-open fa-2x"></i> Courses Manager<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li><a href="add-course">Add Course</a> </li>
-                            <li> <a href="manage-courses">Manage Courses</a> </li>
-                        </ul>
-                    </li>  -->
-<!--                    <li> <a href="#"><i class="fa fa-file fa-2x"></i> Brochure Manager<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li> <a href="manage-brochures">Manage Brochures</a> </li>
-                        </ul>
-                        </li>-->
-                 <!--                    <li> <a href="#"><i class="fa fa-user fa-2x"></i> Subscribers<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li> <a href="manage-subscribers">Manage Subscribers</a> </li>
-                        </ul>
-                    </li>-->   
-
-                    <li> <a href="#"><i class="fa fa-users fa-2x"></i> Team Members<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li><a href="add-tutor">Add Member</a> </li>
-                            <li> <a href="manage-tutors">Manage Members</a> </li>
-                        </ul>
-                    </li>
                     <li> <a href="#"><i class="fa fa-question-circle fa-2x"></i> FAQs Manager<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li> <a href="manage-faq">Add FAQ</a> </li>
@@ -69,12 +40,6 @@
                             <li> <a href="manage-gallery">Manage Gallery</a> </li>
                         </ul>
                     </li>
-<!--                    <li> <a href="#"><i class="fa fa-video-camera fa-2x"></i> Video Manager<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li> <a href="manage-videos">Add Video</a> </li>
-                            <li> <a href="manage-videos">Manage Videos</a> </li>
-                        </ul>
-                    </li>-->
                     <?php if(isset($_SESSION['VPEadminEmail']) && $_SESSION['VPEadminEmail'] == trim(stripcslashes(strip_tags(Setting::getValue($dbObj, 'COMPANY_EMAIL'))))) { ?>
                     <li> <a href="#"><i class="fa fa-cog fa-2x"></i>Settings Manager<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
