@@ -1,234 +1,483 @@
-<section class="slider_wrap slider_fullwide slider_engine_revo slider_alias_education_home_slider_3">
+<section class="slider_wrap slider_fullscreen slider_engine_revo slider_alias_homepage1">
+        <link href="../fonts.googleapis.com/css0f7c.css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" property="stylesheet" type="text/css" media="all" /><link href="../fonts.googleapis.com/css160b.css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet" property="stylesheet" type="text/css" media="all" /><link href="../fonts.googleapis.com/cssbb86.css?family=Droid+Serif:400,700" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
+<div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+<!-- START REVOLUTION SLIDER 5.0.8.5 fullwidth mode -->
+<div id="rev_slider_2_1" class="rev_slider fullwidthabanner tp-overflow-hidden" style="display:none;" data-version="5.0.8.5">
+<ul>	<!-- SLIDE  -->
+<li data-index="rs-4" data-transition="fade" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="http://unicaevents.ancorathemes.com/wp-content/uploads/2015/10/Layer-81-100x50.jpg"  data-delay="10000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
+<!-- MAIN IMAGE -->
+<img src="uploads/2015/10/Layer-81.jpg"  alt=""  width="1920" height="820" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+<!-- LAYERS -->
 
-    <div id="rev_slider_3_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#1eaace;padding:0px;margin-top:0px;margin-bottom:0px;max-height:630px;">
-    <!-- START REVOLUTION SLIDER 4.6.5 fullwidth mode -->
-    <div id="rev_slider_3_1" class="rev_slider fullwidthabanner" style="display:none;max-height:630px;height:630px;">
-    <ul>	<!-- SLIDE 1 -->
-    <li data-transition="random" data-slotamount="7" data-masterspeed="500"  data-saveperformance="off"  class="texture_bg_slider_full">
-    <!-- MAIN IMAGE -->
-    <img src="uploads/2015/03/slider-3-slide-1.png"  alt="slider-3-slide-1"  data-bgposition="center top" data-bgfit="normal" data-bgrepeat="repeat">
-    <!-- LAYERS -->
+<!-- LAYER NR. 1 -->
+<div class="tp-caption   rs-parallaxlevel-2" 
+         id="slide-4-layer-1" 
+         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+                                data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-transform_idle="o:1;"
 
-    <!-- LAYER NR. 1 -->
-    <div class="tp-caption titlecentered lfr stb tp-resizeme" 
-    data-x="center" data-hoffset="0" 
-    data-y="center" data-voffset="160" 
-    data-speed="500" 
-    data-start="650" 
-    data-easing="Power3.easeInOut" 
-    data-splitin="lines" 
-    data-splitout="none" 
-    data-elementdelay="0.1" 
-    data-endelementdelay="0.1" 
-    data-end="8150" 
-    data-endspeed="300" 
+         data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="500" 
+        data-responsive_offset="on" 
+        data-responsive="off"
 
-    style="z-index: 5; max-width: 820px; max-height: 116px; white-space: normal;color:#fff;background:rgba(0,0,139, 0.7);padding:0px 10px 0px 10px;opacity: 0.1;margin:10px">Welcome to <br>Impact Training and Management Consulting
-    </div>
-    </li>
-    <!-- SLIDE 2  -->
-    <li data-transition="random" data-slotamount="7" data-masterspeed="500"  data-saveperformance="off"  class="texture_bg_slider">
-    <!-- MAIN IMAGE -->
-    <img src="uploads/2015/03/slider-3-slide-22.jpg"  alt="slider-3-slide-2"  data-bgposition="center top" data-bgfit="normal" data-bgrepeat="repeat">
-    <!-- LAYERS -->
+        style="z-index: 5;text-align:center;"><img src="uploads/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> 
+</div>
 
-    <!-- LAYER NR. 1 -->
-    <div class="tp-caption title sfr stl tp-resizeme" 
-    data-x="center" data-hoffset="0" 
-    data-y="center" data-voffset="87" 
-    data-speed="500" 
-    data-start="600" 
-    data-easing="Power3.easeInOut" 
-    data-splitin="lines" 
-    data-splitout="none" 
-    data-elementdelay="0.1" 
-    data-endelementdelay="0.1" 
-    data-end="8050" 
-    data-endspeed="300" 
+<!-- LAYER NR. 2 -->
+<div class="tp-caption Big-title-yellow   tp-resizeme rs-parallaxlevel-0" 
+         id="slide-4-layer-2" 
+         data-x="['center','center','center','center']" data-hoffset="['1','1','1','1']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['-170','-170','-170','-170']" 
+                                data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-transform_idle="o:1;"
 
-    style="z-index: 5; max-width: 633px; max-height: 180px; white-space: normal;color:#FFF;background:rgba(0,0,139, 0.7);padding:0px 10px 0px 10px;text-align:center">Receive personalized <br/>coaching
-    </div>
-
-    <!-- LAYER NR. 3 -->
-    <div class="tp-caption slide_button customin stl tp-resizeme" 
-    data-x="center" data-hoffset="0" 
-    data-y="center" data-voffset="170" 
-    data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:20;transformOrigin:50% 100%;" 
-    data-speed="500" 
-    data-start="1450" 
-    data-easing="Power3.easeInOut" 
-    data-splitin="none" 
-    data-splitout="none" 
-    data-elementdelay="0.1" 
-    data-endelementdelay="0.1" 
-    data-end="8600" 
-    data-endspeed="300" 
-
-    style="z-index: 7; max-width: 190px; max-height: 18px; white-space: normal;"><a href="<?php echo SITE_URL.'members/'; ?>" class="slide_button_white" style="color:#00008b">View Trainers</a> 
-    </div>
-    </li>
-    <!-- SLIDE 3 -->
-    <li data-transition="random" data-slotamount="7" data-masterspeed="500"  data-saveperformance="off"  class="texture_bg_slider">
-    <!-- MAIN IMAGE -->
-    <img src="uploads/2015/03/slider-3-slide-33.jpg"  alt="slider-3-slide-3"  data-bgposition="center top" data-bgfit="normal" data-bgrepeat="repeat">
-    <!-- LAYERS -->
-
-    <!-- LAYER NR. 1 -->
-    <div class="tp-caption titlecentered lfr stb tp-resizeme" 
-    data-x="center" data-hoffset="0" 
-    data-y="center" data-voffset="80"  
-    data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:20;transformOrigin:50% 100%;" 
-    data-speed="500" 
-    data-start="650" 
-    data-easing="Power3.easeInOut" 
-    data-splitin="none" 
-    data-splitout="none" 
-    data-elementdelay="0.1" 
-    data-endelementdelay="0.1" 
-    data-end="8200" 
-    data-endspeed="300" 
-
-    style="z-index: 5; max-width: 633px; max-height: 180px; white-space: normal;color:#FFF;background:rgba(0,0,139, 0.7);padding:0px 10px 0px 10px;">Fun-filled Learning<br>
-    </div>
-
-    
-
-    <!-- LAYER NR. 3 -->
-    <div class="tp-caption slide_button customin stb tp-resizeme" 
-    data-x="center" data-hoffset="0" 
-    data-y="center" data-voffset="200" 
-    data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:20;transformOrigin:50% 100%;" 
-    data-speed="500" 
-    data-start="1450" 
-    data-easing="Power3.easeInOut" 
-    data-splitin="none" 
-    data-splitout="none" 
-    data-elementdelay="0.1" 
-    data-endelementdelay="0.1" 
-    data-end="8600" 
-    data-endspeed="300" 
-
-    style="z-index: 7; max-width: 190px; max-height: 18px; white-space: normal;"><a href="<?php echo SITE_URL.'contact/'; ?>" class="slide_button_white" style="color:#00008b">Contact us today</a> 
-    </div>
-    </li>
-    </ul>
-    <div class="tp-bannertimer"></div>	</div>
+         data-transform_in="y:-50px;opacity:0;s:800;e:Power4.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="800" 
+        data-splitin="none" 
+        data-splitout="none" 
+        data-responsive_offset="on" 
 
 
-    <style scoped>.tp-caption.title,.title{font-size:50px;line-height:58px;font-family:"Love Ya Like A Sister",cursive;color:#ffffff;text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(34,34,34);border-style:none}.tp-caption.slide_text,.slide_text{font-size:18px;line-height:27px;color:rgb(255,255,255);text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(255,255,255);border-style:none}.tp-caption.slide_button,.slide_button{display:block;font-size:18px;line-height:18px;font-weight:700;color:#e05100;text-decoration:none;background-color:rgba(255,255,255,1);padding:20px 20px 20px 20px;-webkit-box-shadow:-4px 3px 0px 0px rgba(0,0,0,0.2);-moz-box-shadow:-4px 3px 0px 0px rgba(0,0,0,0.2);box-shadow:-4px 3px 0px 0px rgba(0,0,0,0.2);border-radius:4px 4px 4px 4px;border-width:0px;border-color:rgb(34,34,34);border-style:none}.tp-caption.slidetextcentered,.slidetextcentered{font-size:18px;line-height:27px;color:#ffffff;text-decoration:none;background-color:transparent;text-align:center;border-width:0px;border-color:rgb(255,255,255);border-style:none}.tp-caption.titlecentered,.titlecentered{font-size:50px;line-height:58px;font-family:"Love Ya Like A Sister",cursive;color:#ffffff;text-decoration:none;background-color:transparent;text-align:center;border-width:0px;border-color:rgb(34,34,34);border-style:none}</style>
+        style="z-index: 6; white-space: nowrap;">We create 
+</div>
 
-    <script type="text/javascript">
+<!-- LAYER NR. 3 -->
+<div class="tp-caption Big-title   tp-resizeme rs-parallaxlevel-0" 
+         id="slide-4-layer-3" 
+         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']" 
+                                data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-transform_idle="o:1;"
 
-    /******************************************
-    -	PREPARE PLACEHOLDER FOR SLIDER	-
-    ******************************************/
-
-
-    var setREVStartSize = function() {
-    var	tpopt = new Object();
-    tpopt.startwidth = 1150;
-    tpopt.startheight = 630;
-    tpopt.container = jQuery('#rev_slider_3_1');
-    tpopt.fullScreen = "off";
-    tpopt.forceFullWidth="off";
-
-    tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
-    };
-
-    /* CALL PLACEHOLDER */
-    setREVStartSize();
+         data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="1400" 
+        data-splitin="none" 
+        data-splitout="none" 
+        data-responsive_offset="on" 
 
 
-    var tpj=jQuery;
-    tpj.noConflict();
-    var revapi3;
+        style="z-index: 7; white-space: nowrap;text-align:center;">You<br>
+celebrate 
+</div>
 
-    tpj(document).ready(function() {
+<!-- LAYER NR. 4 -->
+<div class="tp-caption Fashion-BigDisplay   tp-resizeme rs-parallaxlevel-0" 
+         id="slide-4-layer-4" 
+         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['107','107','107','107']" 
+                                data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-transform_idle="o:1;"
 
-    if(tpj('#rev_slider_3_1').revolution == undefined){
-    revslider_showDoubleJqueryError('#rev_slider_3_1');
-    }else{
-    revapi3 = tpj('#rev_slider_3_1').show().revolution(
-    {	
-    dottedOverlay:"none",
-    delay:9000,
-    startwidth:1150,
-    startheight:630,
-    hideThumbs:200,
-
-    thumbWidth:100,
-    thumbHeight:50,
-    thumbAmount:3,
-
-    minHeight:320,
-
-    simplifyAll:"off",
-
-    navigationType:"bullet",
-    navigationArrows:"solo",
-    navigationStyle:"round",
-
-    touchenabled:"on",
-    onHoverStop:"off",
-    nextSlideOnWindowFocus:"off",
-
-    swipe_threshold: 75,
-    swipe_min_touches: 1,
-    drag_block_vertical: false,
+         data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="2000" 
+        data-splitin="none" 
+        data-splitout="none" 
+        data-responsive_offset="on" 
 
 
+        style="z-index: 8; white-space: nowrap;text-align:center;">Planning a Wedding, Proposal, or Event in our busy city is not so easy,<br>and it takes skills (and time) to make it all look easy-going 
+</div>
 
-    keyboardNavigation:"off",
+<!-- LAYER NR. 5 -->
+<div class="tp-caption Button   tp-resizeme rs-parallaxlevel-0" 
+         id="slide-4-layer-5" 
+         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['220','220','220','220']" 
+                                data-width="182"
+        data-height="none"
+        data-whitespace="normal"
+        data-transform_idle="o:1;"
 
-    navigationHAlign:"center",
-    navigationVAlign:"bottom",
-    navigationHOffset:0,
-    navigationVOffset:20,
-
-    soloArrowLeftHalign:"left",
-    soloArrowLeftValign:"center",
-    soloArrowLeftHOffset:20,
-    soloArrowLeftVOffset:0,
-
-    soloArrowRightHalign:"right",
-    soloArrowRightValign:"center",
-    soloArrowRightHOffset:20,
-    soloArrowRightVOffset:0,
-
-    shadow:0,
-    fullWidth:"on",
-    fullScreen:"off",
-
-    spinner:"spinner0",
-
-    stopLoop:"off",
-    stopAfterLoops:-1,
-    stopAtSlide:-1,
-
-    shuffle:"off",
-
-    autoHeight:"off",
-    forceFullWidth:"off",
+         data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="2600" 
+        data-splitin="none" 
+        data-splitout="none" 
+        data-responsive_offset="on" 
 
 
+        style="z-index: 9; min-width: 182px; max-width: 182px; white-space: normal; font-size: 10px; line-height: 36px; font-weight: 700;font-family:Montserrat;text-align:center;"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled" >Online request</a> 
+</div>
+</li>
+<!-- SLIDE  -->
+<li data-index="rs-5" data-transition="fade" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="http://unicaevents.ancorathemes.com/wp-content/uploads/2015/11/Layer-81-100x50.jpg"  data-delay="10000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
+<!-- MAIN IMAGE -->
+<img src="uploads/2015/11/Layer-81.jpg"  alt=""  width="2065" height="820" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+<!-- LAYERS -->
 
-    hideThumbsOnMobile:"off",
-    hideNavDelayOnMobile:1500,
-    hideBulletsOnMobile:"off",
-    hideArrowsOnMobile:"off",
-    hideThumbsUnderResolution:0,
+<!-- LAYER NR. 1 -->
+<div class="tp-caption   rs-parallaxlevel-2" 
+         id="slide-5-layer-1" 
+         data-x="['center','center','center','center']" data-hoffset="['2','2','2','2']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+                                data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-transform_idle="o:1;"
 
-    hideSliderAtLimit:0,
-    hideCaptionAtLimit:0,
-    hideAllCaptionAtLilmit:0,
-    startWithSlide:0					});
+         data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="500" 
+        data-responsive_offset="on" 
+        data-responsive="off"
+
+        style="z-index: 5;text-align:center;"><img src="uploads/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> 
+</div>
+
+<!-- LAYER NR. 2 -->
+<div class="tp-caption Big-title-yellow   tp-resizeme rs-parallaxlevel-0" 
+         id="slide-5-layer-2" 
+         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['-170','-170','-170','-170']" 
+                                data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-transform_idle="o:1;"
+
+         data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="800" 
+        data-splitin="none" 
+        data-splitout="none" 
+        data-responsive_offset="on" 
 
 
+        style="z-index: 6; white-space: nowrap;">From set up 
+</div>
 
-    }
-    });	/*ready*/
+<!-- LAYER NR. 3 -->
+<div class="tp-caption Big-title   tp-resizeme rs-parallaxlevel-0" 
+         id="slide-5-layer-3" 
+         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']" 
+                                data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-transform_idle="o:1;"
 
-    </script>
+         data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="1400" 
+        data-splitin="none" 
+        data-splitout="none" 
+        data-responsive_offset="on" 
 
 
-    </div><!-- END REVOLUTION SLIDER -->		</section>
+        style="z-index: 7; white-space: nowrap;text-align:center;">to<br>
+clean up 
+</div>
+
+<!-- LAYER NR. 4 -->
+<div class="tp-caption Fashion-BigDisplay   tp-resizeme rs-parallaxlevel-0" 
+         id="slide-5-layer-4" 
+         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['107','107','107','107']" 
+                                data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-transform_idle="o:1;"
+
+         data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="1980" 
+        data-splitin="none" 
+        data-splitout="none" 
+        data-responsive_offset="on" 
+
+
+        style="z-index: 8; white-space: nowrap;text-align:center;">Planning a Wedding, Proposal, or Event in our busy city is not so easy,<br>and it takes skills (and time) to make it all look easy-going 
+</div>
+
+<!-- LAYER NR. 5 -->
+<div class="tp-caption Button   tp-resizeme rs-parallaxlevel-0" 
+         id="slide-5-layer-5" 
+         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['220','220','220','220']" 
+                                data-width="182"
+        data-height="none"
+        data-whitespace="normal"
+        data-transform_idle="o:1;"
+
+         data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="2600" 
+        data-splitin="none" 
+        data-splitout="none" 
+        data-responsive_offset="on" 
+
+
+        style="z-index: 9; min-width: 182px; max-width: 182px; white-space: normal; font-size: 10px; line-height: 36px; font-weight: 700;font-family:Montserrat;text-align:center;"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled" >Online request</a> 
+</div>
+</li>
+<!-- SLIDE  -->
+<li data-index="rs-6" data-transition="fade" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="http://unicaevents.ancorathemes.com/wp-content/uploads/2015/11/Layer-82-100x50.jpg"  data-delay="10000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
+<!-- MAIN IMAGE -->
+<img src="uploads/2015/11/Layer-82.jpg"  alt=""  width="2042" height="820" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+<!-- LAYERS -->
+
+<!-- LAYER NR. 1 -->
+<div class="tp-caption   rs-parallaxlevel-2" 
+         id="slide-6-layer-1" 
+         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+                                data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-transform_idle="o:1;"
+
+         data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="500" 
+        data-responsive_offset="on" 
+        data-responsive="off"
+
+        style="z-index: 5;text-align:center;"><img src="uploads/revslider/homepage1/conf.png" alt="" width="1465" height="950" data-ww="['1465px','1465px','1465px','1465px']" data-hh="['920px','920px','920px','920px']" data-no-retina> 
+</div>
+
+<!-- LAYER NR. 2 -->
+<div class="tp-caption Big-title-yellow   tp-resizeme rs-parallaxlevel-0" 
+         id="slide-6-layer-2" 
+         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['-170','-170','-170','-170']" 
+                                data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-transform_idle="o:1;"
+
+         data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="800" 
+        data-splitin="none" 
+        data-splitout="none" 
+        data-responsive_offset="on" 
+
+
+        style="z-index: 6; white-space: nowrap;">Let us help 
+</div>
+
+<!-- LAYER NR. 3 -->
+<div class="tp-caption Big-title   tp-resizeme rs-parallaxlevel-0" 
+         id="slide-6-layer-3" 
+         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']" 
+                                data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-transform_idle="o:1;"
+
+         data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="1400" 
+        data-splitin="none" 
+        data-splitout="none" 
+        data-responsive_offset="on" 
+
+
+        style="z-index: 7; white-space: nowrap;text-align:center;">You<br>create 
+</div>
+
+<!-- LAYER NR. 4 -->
+<div class="tp-caption Fashion-BigDisplay   tp-resizeme rs-parallaxlevel-0" 
+         id="slide-6-layer-4" 
+         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['107','107','107','107']" 
+                                data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-transform_idle="o:1;"
+
+         data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="2000" 
+        data-splitin="none" 
+        data-splitout="none" 
+        data-responsive_offset="on" 
+
+
+        style="z-index: 8; white-space: nowrap;text-align:center;">Planning a Wedding, Proposal, or Event in our busy city is not so easy,<br>and it takes skills (and time) to make it all look easy-going 
+</div>
+
+<!-- LAYER NR. 5 -->
+<div class="tp-caption Button   tp-resizeme rs-parallaxlevel-0" 
+         id="slide-6-layer-5" 
+         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+         data-y="['middle','middle','middle','middle']" data-voffset="['220','220','220','220']" 
+                                data-width="182"
+        data-height="none"
+        data-whitespace="normal"
+        data-transform_idle="o:1;"
+
+         data-transform_in="y:-50px;opacity:0;s:800;e:Power2.easeInOut;" 
+         data-transform_out="opacity:0;s:300;s:300;" 
+        data-start="2600" 
+        data-splitin="none" 
+        data-splitout="none" 
+        data-responsive_offset="on" 
+
+
+        style="z-index: 9; min-width: 182px; max-width: 182px; white-space: normal; font-size: 10px; line-height: 36px; font-weight: 700;font-family:Montserrat;text-align:center;"><a href="#form-parallax" class="sc_button sc_button_square sc_button_style_filled" >Online request</a> 
+</div>
+</li>
+</ul>
+<div class="tp-bannertimer" style="height: 5px; background-color: rgba(0, 0, 0, 0.15);"></div>	</div>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss=".tp-caption.Fashion-BigDisplay,.Fashion-BigDisplay{color:rgba(255,255,255,1.00);font-size:15px;line-height:26px;font-weight:400;font-style:normal;font-family:Open Sans;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;letter-spacing:2px;text-align:center}.tp-caption.Big-title-yellow,.Big-title-yellow{color:rgba(252,180,30,1.00);font-size:80px;line-height:80px;font-weight:400;font-style:normal;font-family:Vidaloka;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;letter-spacing:2px;text-align:left}.tp-caption.Big-title,.Big-title{color:rgba(255,255,255,1.00);font-size:80px;line-height:80px;font-weight:400;font-style:normal;font-family:Vidaloka;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;letter-spacing:2px;text-align:left}.tp-caption.Button,.Button{color:rgba(0,0,0,1.00);font-size:60px;line-height:60px;font-weight:900;font-style:normal;font-family:Raleway;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;letter-spacing:2px;text-align:center}";
+                if(htmlDiv) {
+                        htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+                }
+                else{
+                        var htmlDiv = document.createElement("div");
+                        htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+                        document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+                }
+        </script>
+<script type="text/javascript">
+                                /******************************************
+                -	PREPARE PLACEHOLDER FOR SLIDER	-
+        ******************************************/
+
+        var setREVStartSize=function(){
+                try{var e=new Object,i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+                        e.c = jQuery('#rev_slider_2_1');
+                        e.responsiveLevels = [1240,1024,778,480];
+                        e.gridwidth = [1920,1024,778,480];
+                        e.gridheight = [820,768,600,720];
+
+                        e.sliderLayout = "fullwidth";
+                        if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})
+                }catch(d){console.log("Failure at Presize of Slider:"+d)}
+        };
+
+
+        setREVStartSize();
+        function revslider_showDoubleJqueryError(sliderID) {
+                        var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+                        errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+                        errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+                        errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+                        errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>"
+                                jQuery(sliderID).show().html(errorMessage);
+                }
+                                var tpj=jQuery;
+
+        var revapi2;
+        tpj(document).ready(function() {
+                if(tpj("#rev_slider_2_1").revolution == undefined){
+                        revslider_showDoubleJqueryError("#rev_slider_2_1");
+                }else{
+                        revapi2 = tpj("#rev_slider_2_1").show().revolution({
+                                sliderType:"standard",
+                                jsFileLocation:"http://unicaevents.ancorathemes.com/wp-content/plugins/revslider/public/assets/js/",
+                                sliderLayout:"fullwidth",
+                                dottedOverlay:"none",
+                                delay:9000,
+                                navigation: {
+                                        keyboardNavigation:"off",
+                                        keyboard_direction: "horizontal",
+                                        mouseScrollNavigation:"off",
+                                        onHoverStop:"on",
+                                        touch:{
+                                                touchenabled:"on",
+                                                swipe_threshold: 75,
+                                                swipe_min_touches: 50,
+                                                swipe_direction: "horizontal",
+                                                drag_block_vertical: false
+                                        }
+                                        ,
+                                        arrows: {
+                                                style:"bulletsandarrows",
+                                                enable:true,
+                                                hide_onmobile:true,
+                                                hide_under:600,
+                                                hide_onleave:true,
+                                                hide_delay:200,
+                                                hide_delay_mobile:1200,
+                                                tmp:'',
+                                                left: {
+                                                        h_align:"left",
+                                                        v_align:"center",
+                                                        h_offset:30,
+                                                        v_offset:0
+                                                },
+                                                right: {
+                                                        h_align:"right",
+                                                        v_align:"center",
+                                                        h_offset:30,
+                                                        v_offset:0
+                                                }
+                                        }
+                                        ,
+                                        bullets: {
+                                                enable:true,
+                                                hide_onmobile:true,
+                                                hide_under:600,
+                                                style:"bulletsandarrows",
+                                                hide_onleave:true,
+                                                hide_delay:200,
+                                                hide_delay_mobile:1200,
+                                                direction:"horizontal",
+                                                h_align:"center",
+                                                v_align:"bottom",
+                                                h_offset:0,
+                                                v_offset:30,
+                                                space:12,
+                                                tmp:''
+                                        }
+                                },
+                                responsiveLevels:[1240,1024,778,480],
+                                gridwidth:[1920,1024,778,480],
+                                gridheight:[820,768,600,720],
+                                lazyType:"none",
+                                parallax: {
+                                        type:"mouse",
+                                        origo:"slidercenter",
+                                        speed:2000,
+                                        levels:[2,3,4,5,6,7,12,16,10,50],
+                                },
+                                shadow:0,
+                                spinner:"off",
+                                stopLoop:"off",
+                                stopAfterLoops:-1,
+                                stopAtSlide:-1,
+                                shuffle:"off",
+                                autoHeight:"off",
+                                hideThumbsOnMobile:"off",
+                                hideSliderAtLimit:0,
+                                hideCaptionAtLimit:0,
+                                hideAllCaptionAtLilmit:0,
+                                debugMode:false,
+                                fallbacks: {
+                                        simplifyAll:"off",
+                                        nextSlideOnWindowFocus:"off",
+                                        disableFocusListener:false,
+                                }
+                        });
+                }
+        });	/*ready*/
+</script>
+<script>
+                        var htmlDivCss = unescape(".bulletsandarrows.tparrows%20%7B%0A%09cursor%3Apointer%3B%0A%09background%3A%23000%3B%0A%09background%3Argba%280%2C0%2C0%2C0.5%29%3B%0A%09width%3A40px%3B%0A%09height%3A40px%3B%0A%09position%3Aabsolute%3B%0A%09display%3Ablock%3B%0A%09z-index%3A100%3B%0A%20%20%20%20border-radius%3A%2050%25%3B%0A%7D%0A.bulletsandarrows.tparrows%3Ahover%20%7B%0A%09background%3A%23000%3B%0A%7D%0A.bulletsandarrows.tparrows%3Abefore%20%7B%0A%09font-family%3A%20%22revicons%22%3B%0A%09font-size%3A20px%3B%0A%09color%3A%23fff%3B%0A%09display%3Ablock%3B%0A%09line-height%3A%2040px%3B%0A%09text-align%3A%20center%3B%0A%7D%0A.bulletsandarrows.tparrows.tp-leftarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Ce82c%22%3B%0A%20%20%20%20margin-left%3A-3px%3B%0A%7D%0A.bulletsandarrows.tparrows.tp-rightarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Ce82d%22%3B%0A%20%20%20%20margin-right%3A-3px%3B%0A%7D%0A.bulletsandarrows.tp-bullets%20%7B%0A%7D%0A.bulletsandarrows.tp-bullets%3Abefore%20%7B%0A%09content%3A%22%20%22%3B%0A%09position%3Aabsolute%3B%0A%09height%3A100%25%3B%0A%09background%3Atransparent%3B%0A%09padding%3A10px%3B%0A%09margin-left%3A-10px%3Bmargin-top%3A-10px%3B%0A%09box-sizing%3Acontent-box%3B%0A%20%20%20border-radius%3A8px%3B%0A%20%20%0A%7D%0A.bulletsandarrows%20.tp-bullet%20%7B%0A%09width%3A7px%3B%0A%09height%3A7px%3B%0A%09background%3A%20rgba%28255%2C%20255%2C%20255%2C%200.2%29%3B%20%2F%2A%20old%20browsers%20%2A%2F%0A%09border-radius%3A50%25%3B%0A%09cursor%3A%20pointer%3B%0A%20%20%20%20position%3A%20absolute%3B%0A%7D%0A.bulletsandarrows%20.tp-bullet%3Ahover%2C%0A.bulletsandarrows%20.tp-bullet.selected%20%7B%0A%09background%3A%23ffffff%3B%0A%7D%0A.bulletsandarrows%20.tp-bullet-image%20%7B%0A%7D%0A.bulletsandarrows%20.tp-bullet-title%20%7B%0A%7D%0A%0A");
+                        var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+                        if(htmlDiv) {
+                                htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+                        }
+                        else{
+                                var htmlDiv = document.createElement('div');
+                                htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+                                document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+                        }
+                  </script>
+                </div><!-- END REVOLUTION SLIDER -->		</section>
