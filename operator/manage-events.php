@@ -13,7 +13,7 @@ $errorArr = array(); //Array of errors
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Manage Upcoming Events  - Vien Patrick Events</title>
+    <title>Manage Events  - Vien Patrick Events</title>
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
     <link href="assets/css/custom.css" rel="stylesheet" />
@@ -38,7 +38,7 @@ $errorArr = array(); //Array of errors
                     <div class="col-md-12">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
-                                <h3>All Upcoming Events</h3>
+                                <h3>All Events</h3>
                             </div>
                             <div class="panel-body">
                                 <div class="table-responsive">
