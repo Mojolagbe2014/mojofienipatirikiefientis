@@ -8,6 +8,7 @@ $thisPage = new WebPage(); //Create new instance of webPage class
 $dbObj = new Database();//Instantiate database
 $thisPage->dbObj = $dbObj;
 $calendar = new Calendar($dbObj);
+$testimonialObj = new Testimonial($dbObj);
 
 include('includes/other-settings.php');
 require('includes/page-properties.php');
@@ -193,7 +194,7 @@ require('includes/page-properties.php');
                                           <div class="column-1_1 sc_column_item sc_column_item_1 odd first">
                                              <div class="wpb_text_column wpb_content_element ">
                                                 <div class="wpb_wrapper">
-                                                   <p style="text-align: center;">As the premier event planning company in the area, we know that it’s not “one size fits all”. Each event and client is unique and we believe our services should be as well. We know that it should be “Can I hire a planner?” not “Can I afford one?”.</p>
+                                                   <p style="text-align: center;">As one of the leading event planning companies, we know that it’s not “one size fits all”. Each event and client is unique and we believe our services should be as well. We know that it should be “Can I hire a planner?” not “Can I afford one?”.</p>
                                                 </div>
                                              </div>
                                           </div>
@@ -208,8 +209,7 @@ require('includes/page-properties.php');
                                                    <span class="sc_icon none aligncenter number_icon "></span>
                                                 </div>
                                              </div>
-                                          </div>
-                                          <div class="column-1_4 sc_column_item sc_column_item_2 even">
+                                          </div><div class="column-1_4 sc_column_item sc_column_item_2 even">
                                              <div class="sc_section" data-animation="animated fadeIn normal">
                                                 <div class="sc_section_inner">
                                                    <span class="sc_icon icon-page1_icon6 aligncenter"></span>
@@ -217,8 +217,7 @@ require('includes/page-properties.php');
                                                    <span class="sc_icon none aligncenter number_icon "></span>
                                                 </div>
                                              </div>
-                                          </div>
-                                          <div class="column-1_4 sc_column_item sc_column_item_3 odd">
+                                          </div><div class="column-1_4 sc_column_item sc_column_item_3 odd">
                                              <div class="sc_section">
                                                 <div class="sc_section_inner">
                                                    <span class="sc_icon icon-page1_icon7 aligncenter"></span>
@@ -226,8 +225,7 @@ require('includes/page-properties.php');
                                                    <span class="sc_icon none aligncenter number_icon "></span>
                                                 </div>
                                              </div>
-                                          </div>
-                                          <div class="column-1_4 sc_column_item sc_column_item_4 even">
+                                          </div><div class="column-1_4 sc_column_item sc_column_item_4 even">
                                              <div class="sc_section" data-animation="animated fadeIn normal">
                                                 <div class="sc_section_inner">
                                                    <span class="sc_icon icon-page1_icon8 aligncenter"></span>
@@ -250,34 +248,31 @@ require('includes/page-properties.php');
                                              <div class="sc_skills_column column-1_4">
                                                 <div class="sc_skills_item sc_skills_style_2 odd first">
                                                    <div class="sc_skills_count"></div>
-                                                   <div class="sc_skills_total" data-start="0" data-stop="67" data-step="1" data-max="100" data-speed="30" data-duration="2010" data-ed=""style="color:#ffffff; border-color:#d7d7d7">0</div>
+                                                   <div class="sc_skills_total" data-start="0" data-stop="200" data-step="1" data-max="600" data-speed="30" data-duration="2010" data-ed="" style="color:#ffffff; border-color:#d7d7d7">0</div>
                                                    <div class="sc_skills_info">
                                                       <div class="sc_skills_label" style="color:#ffffff; border-color:#d7d7d7">Projects</div>
                                                    </div>
                                                 </div>
-                                             </div>
-                                             <div class="sc_skills_column column-1_4">
+                                             </div><div class="sc_skills_column column-1_4">
                                                 <div class="sc_skills_item sc_skills_style_2 even">
                                                    <div class="sc_skills_count"></div>
-                                                   <div class="sc_skills_total" data-start="0" data-stop="117" data-step="1" data-max="117" data-speed="19" data-duration="2223" data-ed=""style="color:#ffffff; border-color:#d7d7d7">0</div>
+                                                   <div class="sc_skills_total" data-start="0" data-stop="128" data-step="1" data-max="800" data-speed="19" data-duration="2223" data-ed="" style="color:#ffffff; border-color:#d7d7d7">0</div>
                                                    <div class="sc_skills_info">
                                                       <div class="sc_skills_label" style="color:#ffffff; border-color:#d7d7d7">Clients</div>
                                                    </div>
                                                 </div>
-                                             </div>
-                                             <div class="sc_skills_column column-1_4">
+                                             </div><div class="sc_skills_column column-1_4">
                                                 <div class="sc_skills_item sc_skills_style_2 odd">
                                                    <div class="sc_skills_count"></div>
-                                                   <div class="sc_skills_total" data-start="0" data-stop="18" data-step="1" data-max="117" data-speed="29" data-duration="522" data-ed=""style="color:#ffffff; border-color:#d7d7d7">0</div>
+                                                   <div class="sc_skills_total" data-start="0" data-stop="18" data-step="1" data-max="117" data-speed="29" data-duration="522" data-ed="" style="color:#ffffff; border-color:#d7d7d7">0</div>
                                                    <div class="sc_skills_info">
-                                                      <div class="sc_skills_label" style="color:#ffffff; border-color:#d7d7d7">Members</div>
+                                                      <div class="sc_skills_label" style="color:#ffffff; border-color:#d7d7d7">States</div>
                                                    </div>
                                                 </div>
-                                             </div>
-                                             <div class="sc_skills_column column-1_4">
+                                             </div><div class="sc_skills_column column-1_4">
                                                 <div class="sc_skills_item sc_skills_style_2 even">
                                                    <div class="sc_skills_count"></div>
-                                                   <div class="sc_skills_total" data-start="0" data-stop="12" data-step="1" data-max="117" data-speed="25" data-duration="300" data-ed=""style="color:#ffffff; border-color:#d7d7d7">0</div>
+                                                   <div class="sc_skills_total" data-start="0" data-stop="15" data-step="1" data-max="117" data-speed="25" data-duration="300" data-ed="" style="color:#ffffff; border-color:#d7d7d7">0</div>
                                                    <div class="sc_skills_info">
                                                       <div class="sc_skills_label" style="color:#ffffff; border-color:#d7d7d7" >Awards</div>
                                                    </div>
@@ -307,88 +302,31 @@ require('includes/page-properties.php');
                                                 <!-- ############################ -->
                                                 <ul>
                                                    <!-- PORTFOLIO ITEM 45 -->
-                                                   <li class="filterall filter-home-gallery eg-personal1-wrapper eg-post-id-204" data-date="1446026885">
+                                                   <?php
+                                                    $handle = opendir('media/gallery/');
+                                                    $counter = 1;
+                                                    while($file = readdir($handle)){
+                                                        if($file !== '.' && $file !== '..' && $counter < 5){
+                                                            //$filenameArray[] =  array(utf8_encode('<img style="width:40%; height:20%;" src="../media/gallery/'.$file.'">')));
+                                                    ?><li class="filterall filter-home-gallery eg-personal1-wrapper eg-post-id-204" data-date="1446026885">
                                                       <!-- THE CONTAINER FOR THE MEDIA AND THE COVER EFFECTS -->
                                                       <div class="esg-media-cover-wrapper">
                                                          <!-- THE MEDIA OF THE ENTRY -->
-                                                         <div class="esg-entry-media"><img src="uploads/2015/10/gallery-7.jpg" alt=""></div>
+                                                         <div class="esg-entry-media"><img src="<?php echo MEDIA_FILES_PATH1.'gallery/'.$file; ?>" alt=""></div>
                                                          <!-- THE CONTENT OF THE ENTRY -->
                                                          <div class="esg-entry-cover">
                                                             <!-- THE COLORED OVERLAY -->
                                                             <div class="esg-overlay esg-fadeout eg-personal1-container" data-delay="0"></div>
                                                             <div class="esg-center eg-personal1-element-8 esg-none esg-clear" style="height: 5px; visibility: hidden;"></div>
-                                                            <div class="esg-center eg-post-204 eg-personal1-element-0-a esg-fade" data-delay="0.2"><a class="eg-personal1-element-0 eg-post-204 esgbox" href="uploads/2015/10/gallery-7.jpg" lgtitle="Planning It All Ahead"><i class="eg-icon-search"></i></a></div>
-                                                            <div class="esg-center eg-post-204 eg-personal1-element-11-a esg-falldownout" data-delay="0.1"><a class="eg-personal1-element-11 eg-post-204 esgbox" href="uploads/2015/10/gallery-7.jpg" lgtitle="Planning It All Ahead"><i class="eg-icon-plus"></i></a></div>
-                                                            <div class="esg-center eg-post-204 eg-personal1-element-1-a esg-fade" data-delay="0.2"><a class="eg-personal1-element-1 eg-post-204" href="planning-it-all-ahead/index.html" target="_self"><i class="eg-icon-link"></i></a></div>
+                                                            <div class="esg-center eg-post-204 eg-personal1-element-0-a esg-fade" data-delay="0.2"><a class="eg-personal1-element-0 eg-post-204 esgbox" href="<?php echo MEDIA_FILES_PATH1.'gallery/'.$file; ?>" lgtitle="<?php echo $file; ?>"><i class="eg-icon-search"></i></a></div>
+                                                            <div class="esg-center eg-post-204 eg-personal1-element-11-a esg-falldownout" data-delay="0.1"><a class="eg-personal1-element-11 eg-post-204 esgbox" href="<?php echo MEDIA_FILES_PATH1.'gallery/'.$file; ?>" lgtitle="<?php echo $file; ?>"><i class="eg-icon-plus"></i></a></div>
+                                                            <div class="esg-center eg-post-204 eg-personal1-element-1-a esg-fade" data-delay="0.2"><a class="eg-personal1-element-1 eg-post-204" href="gallery/" target="_self"><i class="eg-icon-link"></i></a></div>
                                                             <div class="esg-center eg-personal1-element-9 esg-none esg-clear" style="height: 5px; visibility: hidden;"></div>
                                                          </div>
                                                          <!-- END OF THE CONTENT IN THE ENTRY -->
                                                       </div>
                                                       <!-- END OF THE CONTAINER FOR THE MEDIA AND COVER/HOVER EFFECTS -->
-                                                   </li>
-                                                   <!-- END OF PORTFOLIO ITEM -->
-                                                   <!-- PORTFOLIO ITEM 45 -->
-                                                   <li class="filterall filter-home-gallery eg-personal1-wrapper eg-post-id-207" data-date="1446026907">
-                                                      <!-- THE CONTAINER FOR THE MEDIA AND THE COVER EFFECTS -->
-                                                      <div class="esg-media-cover-wrapper">
-                                                         <!-- THE MEDIA OF THE ENTRY -->
-                                                         <div class="esg-entry-media"><img src="uploads/2015/10/Depositphotos_1713895.jpg" alt=""></div>
-                                                         <!-- THE CONTENT OF THE ENTRY -->
-                                                         <div class="esg-entry-cover">
-                                                            <!-- THE COLORED OVERLAY -->
-                                                            <div class="esg-overlay esg-fadeout eg-personal1-container" data-delay="0"></div>
-                                                            <div class="esg-center eg-personal1-element-8 esg-none esg-clear" style="height: 5px; visibility: hidden;"></div>
-                                                            <div class="esg-center eg-post-207 eg-personal1-element-0-a esg-fade" data-delay="0.2"><a class="eg-personal1-element-0 eg-post-207 esgbox" href="uploads/2015/10/Depositphotos_1713895.jpg" lgtitle="Planning Kids' Birthday Parties"><i class="eg-icon-search"></i></a></div>
-                                                            <div class="esg-center eg-post-207 eg-personal1-element-11-a esg-falldownout" data-delay="0.1"><a class="eg-personal1-element-11 eg-post-207 esgbox" href="uploads/2015/10/Depositphotos_1713895.jpg" lgtitle="Planning Kids' Birthday Parties"><i class="eg-icon-plus"></i></a></div>
-                                                            <div class="esg-center eg-post-207 eg-personal1-element-1-a esg-fade" data-delay="0.2"><a class="eg-personal1-element-1 eg-post-207" href="planning-kids-birthday-parties/index.html" target="_self"><i class="eg-icon-link"></i></a></div>
-                                                            <div class="esg-center eg-personal1-element-9 esg-none esg-clear" style="height: 5px; visibility: hidden;"></div>
-                                                         </div>
-                                                         <!-- END OF THE CONTENT IN THE ENTRY -->
-                                                      </div>
-                                                      <!-- END OF THE CONTAINER FOR THE MEDIA AND COVER/HOVER EFFECTS -->
-                                                   </li>
-                                                   <!-- END OF PORTFOLIO ITEM -->
-                                                   <!-- PORTFOLIO ITEM 45 -->
-                                                   <li class="filterall filter-home-gallery eg-personal1-wrapper eg-post-id-211" data-date="1446026936">
-                                                      <!-- THE CONTAINER FOR THE MEDIA AND THE COVER EFFECTS -->
-                                                      <div class="esg-media-cover-wrapper">
-                                                         <!-- THE MEDIA OF THE ENTRY -->
-                                                         <div class="esg-entry-media"><img src="uploads/2015/08/Depositphotos_11340870_original.jpg" alt=""></div>
-                                                         <!-- THE CONTENT OF THE ENTRY -->
-                                                         <div class="esg-entry-cover">
-                                                            <!-- THE COLORED OVERLAY -->
-                                                            <div class="esg-overlay esg-fadeout eg-personal1-container" data-delay="0"></div>
-                                                            <div class="esg-center eg-personal1-element-8 esg-none esg-clear" style="height: 5px; visibility: hidden;"></div>
-                                                            <div class="esg-center eg-post-211 eg-personal1-element-0-a esg-fade" data-delay="0.2"><a class="eg-personal1-element-0 eg-post-211 esgbox" href="uploads/2015/08/Depositphotos_11340870_original.jpg" lgtitle="Planning Bachelor and Bachelorette Parties"><i class="eg-icon-search"></i></a></div>
-                                                            <div class="esg-center eg-post-211 eg-personal1-element-11-a esg-falldownout" data-delay="0.1"><a class="eg-personal1-element-11 eg-post-211 esgbox" href="uploads/2015/08/Depositphotos_11340870_original.jpg" lgtitle="Planning Bachelor and Bachelorette Parties"><i class="eg-icon-plus"></i></a></div>
-                                                            <div class="esg-center eg-post-211 eg-personal1-element-1-a esg-fade" data-delay="0.2"><a class="eg-personal1-element-1 eg-post-211" href="planning-bachelor-and-bachelorette-parties/index.html" target="_self"><i class="eg-icon-link"></i></a></div>
-                                                            <div class="esg-center eg-personal1-element-9 esg-none esg-clear" style="height: 5px; visibility: hidden;"></div>
-                                                         </div>
-                                                         <!-- END OF THE CONTENT IN THE ENTRY -->
-                                                      </div>
-                                                      <!-- END OF THE CONTAINER FOR THE MEDIA AND COVER/HOVER EFFECTS -->
-                                                   </li>
-                                                   <!-- END OF PORTFOLIO ITEM -->
-                                                   <!-- PORTFOLIO ITEM 45 -->
-                                                   <li class="filterall filter-home-gallery eg-personal1-wrapper eg-post-id-213" data-date="1446026953">
-                                                      <!-- THE CONTAINER FOR THE MEDIA AND THE COVER EFFECTS -->
-                                                      <div class="esg-media-cover-wrapper">
-                                                         <!-- THE MEDIA OF THE ENTRY -->
-                                                         <div class="esg-entry-media"><img src="uploads/2015/10/gallery-2.jpg" alt=""></div>
-                                                         <!-- THE CONTENT OF THE ENTRY -->
-                                                         <div class="esg-entry-cover">
-                                                            <!-- THE COLORED OVERLAY -->
-                                                            <div class="esg-overlay esg-fadeout eg-personal1-container" data-delay="0"></div>
-                                                            <div class="esg-center eg-personal1-element-8 esg-none esg-clear" style="height: 5px; visibility: hidden;"></div>
-                                                            <div class="esg-center eg-post-213 eg-personal1-element-0-a esg-fade" data-delay="0.2"><a class="eg-personal1-element-0 eg-post-213 esgbox" href="uploads/2015/10/gallery-2.jpg" lgtitle="The Most Importand Days in Your Life"><i class="eg-icon-search"></i></a></div>
-                                                            <div class="esg-center eg-post-213 eg-personal1-element-11-a esg-falldownout" data-delay="0.1"><a class="eg-personal1-element-11 eg-post-213 esgbox" href="uploads/2015/10/gallery-2.jpg" lgtitle="The Most Importand Days in Your Life"><i class="eg-icon-plus"></i></a></div>
-                                                            <div class="esg-center eg-post-213 eg-personal1-element-1-a esg-fade" data-delay="0.2"><a class="eg-personal1-element-1 eg-post-213" href="the-most-importand-days-in-your-life/index.html" target="_self"><i class="eg-icon-link"></i></a></div>
-                                                            <div class="esg-center eg-personal1-element-9 esg-none esg-clear" style="height: 5px; visibility: hidden;"></div>
-                                                         </div>
-                                                         <!-- END OF THE CONTENT IN THE ENTRY -->
-                                                      </div>
-                                                      <!-- END OF THE CONTAINER FOR THE MEDIA AND COVER/HOVER EFFECTS -->
-                                                   </li>
+                                                   </li><?php $counter++; }  } ?>
                                                    <!-- END OF PORTFOLIO ITEM -->
                                                 </ul>
                                                 <!-- ############################ -->
@@ -412,8 +350,7 @@ require('includes/page-properties.php');
                                        <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
                                           <div class="column-1_2 sc_column_item sc_column_item_1 odd first" style="width:55%">
                                              <h3 class="sc_title sc_title_regular sc_align_right" style="margin-top: 0.4em;text-align:right;">See Our <span style="color: #fcb41e;">Best Events</span> Gallery!</h3>
-                                          </div>
-                                          <div class="column-1_2 sc_column_item sc_column_item_2 even" style="width:45%"><a href="grid-gallery/index.html" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Visit Gallery</a></div>
+                                          </div><div class="column-1_2 sc_column_item sc_column_item_2 even" style="width:45%"><a href="gallery/" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Visit Gallery</a></div>
                                        </div>
                                     </div>
                                  </div>
@@ -424,45 +361,20 @@ require('includes/page-properties.php');
                                  <div class="wpb_wrapper">
                                     <div class="sc_content content_wrap" style="padding-bottom:1em;">
                                        <h2 class="sc_title sc_title_underline sc_align_center margin_top_small margin_bottom_tiny" style="text-align:center;">Testimonials</h2>
-                                       <h6 class="sc_title sc_title_style1 sc_align_center margin_bottom_large" style="text-align:center;"><span class="sc_title_style1_before"></span>Happy clients about us<span class="sc_title_style1_after"></span></h6>
+                                       <h6 class="sc_title sc_title_style1 sc_align_center margin_bottom_large" style="text-align:center;"><span class="sc_title_style1_before"></span>Happy clients<span class="sc_title_style1_after"></span></h6>
                                        <div id="sc_testimonials_1173590356" class="sc_testimonials sc_testimonials_style_testimonials-1  sc_slider_swiper swiper-slider-container sc_slider_nopagination sc_slider_controls sc_slider_controls_bottom margin_bottom_medium" data-interval="70000" data-slides-per-view="3" style="width:100%;">
                                           <div class="slides swiper-wrapper">
+                                              <?php foreach($testimonialObj->fetchRaw("*", " 1=1 ", " RAND() LIMIT 50") as $testimonial) { ?>
                                              <div class="swiper-slide" data-style="width:100%;" style="width:100%;">
                                                 <div id="sc_testimonials_1173590356_1" class="sc_testimonial_item">
                                                    <div class="sc_testimonial_content">
-                                                      <p>My family and I are beyond happy to have them plan our wedding day.</p>
+                                                      <p><?php echo $testimonial['content']; ?></p>
                                                    </div>
-                                                   <div class="sc_testimonial_avatar"><img class="wp-post-image" width="75" height="75" alt="Jessica Mann" src="uploads/2015/10/testimonial-1-150x150.jpg"></div>
-                                                   <div class="sc_testimonial_author"><span class="sc_testimonial_author_name">Jessica Mann</span></div>
+                                                   <div class="sc_testimonial_avatar"><img class="wp-post-image" width="75" height="75" alt="<?php echo $testimonial['author']; ?>" src="<?php echo MEDIA_FILES_PATH1.'testimonial/'.$testimonial['image']; ?>"></div>
+                                                   <div class="sc_testimonial_author"><span class="sc_testimonial_author_name"><?php echo $testimonial['author']; ?></span></div>
                                                 </div>
                                              </div>
-                                             <div class="swiper-slide" data-style="width:100%;" style="width:100%;">
-                                                <div id="sc_testimonials_1173590356_2" class="sc_testimonial_item">
-                                                   <div class="sc_testimonial_content">
-                                                      <p>Look no further! You are in the right place to plan your celebration.</p>
-                                                   </div>
-                                                   <div class="sc_testimonial_avatar"><img class="wp-post-image" width="75" height="75" alt="Linda Movrizza" src="uploads/2015/10/testimonial-2-150x150.jpg"></div>
-                                                   <div class="sc_testimonial_author"><span class="sc_testimonial_author_name">Linda Movrizza</span></div>
-                                                </div>
-                                             </div>
-                                             <div class="swiper-slide" data-style="width:100%;" style="width:100%;">
-                                                <div id="sc_testimonials_1173590356_3" class="sc_testimonial_item">
-                                                   <div class="sc_testimonial_content">
-                                                      <p>I invited these event planner to arrange a bachelor party for my best friend!</p>
-                                                   </div>
-                                                   <div class="sc_testimonial_avatar"><img class="wp-post-image" width="75" height="75" alt="John Snow" src="uploads/2015/10/testimonial-3-150x150.jpg"></div>
-                                                   <div class="sc_testimonial_author"><span class="sc_testimonial_author_name">John Snow</span></div>
-                                                </div>
-                                             </div>
-                                             <div class="swiper-slide" data-style="width:100%;" style="width:100%;">
-                                                <div id="sc_testimonials_1173590356_4" class="sc_testimonial_item">
-                                                   <div class="sc_testimonial_content">
-                                                      <p>Perfect decoration and perfect buffet for my little sister's birthday party!</p>
-                                                   </div>
-                                                   <div class="sc_testimonial_avatar"><img class="wp-post-image" width="75" height="75" alt="Jane Sanders" src="uploads/2015/10/testimonial-4-150x150.jpg"></div>
-                                                   <div class="sc_testimonial_author"><span class="sc_testimonial_author_name">Jane Sanders</span></div>
-                                                </div>
-                                             </div>
+                                             <?php } ?>
                                           </div>
                                           <div class="sc_slider_controls_wrap"><a class="sc_slider_prev" href="#"></a><a class="sc_slider_next" href="#"></a></div>
                                           <div class="sc_slider_pagination_wrap"></div>
@@ -477,8 +389,7 @@ require('includes/page-properties.php');
                                  <div class="wpb_wrapper">
                                     <div class="sc_content content_wrap">
                                        <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
-                                          <div class="column-1_2 sc_column_item sc_column_item_1 odd first"></div>
-                                          <div class="column-1_2 sc_column_item sc_column_item_2 even">
+                                          <div class="column-1_2 sc_column_item sc_column_item_1 odd first"></div><div class="column-1_2 sc_column_item sc_column_item_2 even">
                                              <h2 class="sc_title sc_title_underline sc_align_center margin_top_small margin_bottom_tiny" style="text-align:center;color:#ffffff;">Online Request</h2>
                                              <h6 class="sc_title sc_title_style1 sc_align_center margin_top_small margin_bottom_large" style="text-align:center;color:#ffffff;"><span class="sc_title_style1_before" style="background-color: #ffffff"></span>Drop us a few lines<span class="sc_title_style1_after" style="background-color: #ffffff"></span></h6>
                                              <div  id="sc_form_2139652142_wrap" class="sc_form_wrap">
@@ -487,7 +398,7 @@ require('includes/page-properties.php');
                                                       <div class="sc_form_info">
                                                          <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
                                                             <div class="column-1_2 sc_column_item sc_column_item_1">
-                                                               <div class="sc_form_item sc_form_field label_over"><label class="required" for="sc_form_username">Name:</label><input id="sc_form_username" type="text" name="username" placeholder="Name:"></div>
+                                                               <div class="sc_form_item sc_form_field label_over"><label class="required" for="sc_form_username">Name:</label><input id="sc_form_username" type="text" name="name" placeholder="Name:"></div>
                                                             </div>
                                                             <div class="column-1_2 sc_column_item sc_column_item_2">
                                                                <div class="sc_form_item sc_form_field label_over"><label class="required" for="sc_form_phone">Phone:</label><input id="sc_form_phone" type="text" name="phone" placeholder="Phone:"></div>
@@ -519,68 +430,54 @@ require('includes/page-properties.php');
                                                    <h6 class="sc_title sc_title_regular sc_align_center" style="text-align:center;">Postal Address</h6>
                                                    <div class="wpb_text_column wpb_content_element ">
                                                       <div class="wpb_wrapper">
-                                                         <p style="text-align: center;">Unica Event Agency<br />
-                                                            85 Fentiman Ave<br />
-                                                            Ottawa, ON K1S 0T7
-                                                         </p>
+                                                         <p style="text-align: center;"><?php echo COMPANY_ADDRESS; ?></p>
                                                       </div>
                                                    </div>
                                                 </div>
                                              </div>
-                                          </div>
-                                          <div class="column-1_4 sc_column_item sc_column_item_2 even">
+                                          </div><div class="column-1_4 sc_column_item sc_column_item_2 even">
                                              <div class="sc_section">
                                                 <div class="sc_section_inner">
                                                    <span class="sc_icon icon-contacts_icon2 aligncenter" style="font-size:2.35em; line-height: 1em;color:#ff635c;"></span>
-                                                   <h6 class="sc_title sc_title_regular sc_align_center" style="text-align:center;">Phone &amp; E-mail</h6>
+                                                   <h6 class="sc_title sc_title_regular sc_align_center" style="text-align:center;">Phone Numbers</h6>
                                                    <div class="wpb_text_column wpb_content_element ">
                                                       <div class="wpb_wrapper">
                                                          <p style="text-align: center;">
-                                                            Phone: 1-800-64-38<br />
-                                                            Fax: 1-800-64-39<br />
-                                                            <a href="cdn-cgi/l/email-protection.html#bfd0d9d9d6dcdaffd9deddd3da91dcd0d2">
-                                                               <span class="__cf_email__" data-cfemail="234c45454a4046634542414f460d404c4e">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
-                                                                  /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */
-                                                               </script>
-                                                            </a>
+                                                            <?php echo COMPANY_HOTLINE; ?><br />
+                                                            <?php echo COMPANY_NUMBERS; ?><br />
                                                          </p>
                                                       </div>
                                                    </div>
                                                 </div>
                                              </div>
-                                          </div>
-                                          <div class="column-1_4 sc_column_item sc_column_item_3 odd">
+                                          </div><div class="column-1_4 sc_column_item sc_column_item_4 even">
+                                             <div class="sc_section">
+                                                <div class="sc_section_inner">
+                                                   <span class="sc_icon icon-contacts_icon4 aligncenter" style="font-size:2.35em; line-height: 1em;color:#ff635c;"></span>
+                                                   <h6 class="sc_title sc_title_regular sc_align_center" style="text-align:center;">Emails</h6>
+                                                   <div class="wpb_text_column wpb_content_element ">
+                                                      <div class="wpb_wrapper">
+                                                          <p style="text-align: center;"><a href="mailto:<?php echo COMPANY_EMAIL; ?>"><?php echo COMPANY_EMAIL; ?></a><br/>
+                                                              <?php echo COMPANY_OTHER_EMAILS; ?>
+                                                          </p>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div><div class="column-1_4 sc_column_item sc_column_item_3 odd">
                                              <div class="sc_section">
                                                 <div class="sc_section_inner">
                                                    <span class="sc_icon icon-contacts_icon3 aligncenter" style="font-size:2.35em; line-height: 1em;color:#ff635c;"></span>
                                                    <h6 class="sc_title sc_title_regular sc_align_center" style="text-align:center;">Open Hours</h6>
                                                    <div class="wpb_text_column wpb_content_element ">
                                                       <div class="wpb_wrapper">
-                                                         <p style="text-align: center;">Monday – Friday<br />
-                                                            8.00 am – 5.00 pm<br />
-                                                            Weekend Closed
-                                                         </p>
+                                                         <p style="text-align: center;"><?php echo COMPANY_OPEN_HOURS; ?></p>
                                                       </div>
                                                    </div>
                                                 </div>
                                              </div>
                                           </div>
-                                          <div class="column-1_4 sc_column_item sc_column_item_4 even">
-                                             <div class="sc_section">
-                                                <div class="sc_section_inner">
-                                                   <span class="sc_icon icon-contacts_icon4 aligncenter" style="font-size:2.35em; line-height: 1em;color:#ff635c;"></span>
-                                                   <h6 class="sc_title sc_title_regular sc_align_center" style="text-align:center;">Sessions</h6>
-                                                   <div class="wpb_text_column wpb_content_element ">
-                                                      <div class="wpb_wrapper">
-                                                         <p style="text-align: center;">Mornings, 8 am – 12 noon<br />
-                                                            Afternoons, 1 pm – 5 pm<br />
-                                                            Full Day, 8 am – 5 pm
-                                                         </p>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
+                                           
                                        </div>
                                     </div>
                                  </div>
@@ -599,9 +496,7 @@ require('includes/page-properties.php');
             </div>
             <!-- </.page_content_wrap> -->
             
-            <div id="sc_googlemap_519873279" class="sc_googlemap" style="width:100%;height:243px;" data-zoom="10" data-style="style1"><div id="sc_googlemap_519873279_1" class="sc_googlemap_marker" data-title="" data-description="" data-address="123, New Lenox Chicago, IL 60606" data-latlng="" data-point="uploads/2015/11/ico.png"></div></div>				
             <?php include('includes/footer.php'); ?>
-
         </div>	<!-- /.page_wrap -->
     </div>		<!-- /.body_wrap -->
 

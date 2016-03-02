@@ -3,7 +3,7 @@
             <div class="top_panel_top">
                 <div class="content_wrap clearfix">
                     <div class="top_panel_top_contact_phone icon-phone"><?php echo COMPANY_HOTLINE; ?></div>
-                    <div class="top_panel_top_open_hours icon-clock">Monday – Saturday 8.00 am – 5.00 pm</div>
+                    <div class="top_panel_top_open_hours icon-clock"><?php echo strip_tags(COMPANY_OPEN_HOURS); ?></div>
                     <div class="top_panel_top_contact_email">
                         <a class="__cf_email__" href="mailto:<?php echo COMPANY_EMAIL; ?>"><?php echo COMPANY_EMAIL; ?></a>
                     </div>

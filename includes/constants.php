@@ -1,7 +1,7 @@
 <?php
 /** Database Connection Strings */
 define("SITE_URL","http://localhost/vienpatrickevents/");
-define("SITE_URL1","http://localhost/");
+define("SITE_URL1","http://localhost");
 define("DB_NAME","vienpatrickevents"); 
 define("DB_USER","root");
 define("DB_PASSWORD","");//@Kaiste&NstProduct2016
