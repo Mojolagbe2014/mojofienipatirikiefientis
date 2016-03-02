@@ -1579,9 +1579,9 @@ function unicaevents_sc_form_validate(form){
 					mask: { value: UNICAEVENTS_GLOBALS['email_mask'], message: UNICAEVENTS_GLOBALS['strings']['email_not_valid'] }
 				},
 				{
-					field: "subject",
-					min_length: { value: 1,	 message: UNICAEVENTS_GLOBALS['strings']['subject_empty'] },
-					max_length: { value: 100, message: UNICAEVENTS_GLOBALS['strings']['subject_long'] }
+					field: "phone",
+					min_length: { value: 1,	 message: "The phone number can't be empty" },
+					max_length: { value: 100, message: "The phone number is too long" }
 				},
 				{
 					field: "message",
@@ -1592,29 +1592,30 @@ function unicaevents_sc_form_validate(form){
 		});
 	}
 	if (!error && url!='#') {
-		jQuery.post(url, {
-			action: "send_form",
-			nonce: UNICAEVENTS_GLOBALS['ajax_nonce'],
-			type: form.data('formtype'),
-			data: form.serialize()
-		}).done(function(response) {
-			"use strict";
-			var rez = {};
-			try {
-				rez = JSON.parse(response);
-			} catch (e) {
-				rez = { error: UNICAEVENTS_GLOBALS['ajax_error'] };
-				console.log(response);
-			}
-			var result = form.find(".result").toggleClass("sc_infobox_style_error", false).toggleClass("sc_infobox_style_success", false);
-			if (rez.error === '') {
-				form.get(0).reset();
-				result.addClass("sc_infobox_style_success").html(UNICAEVENTS_GLOBALS['strings']['send_complete']);
-			} else {
-				result.addClass("sc_infobox_style_error").html(UNICAEVENTS_GLOBALS['strings']['send_error'] + ' ' + rez.error);
-			}
-			result.fadeIn().delay(3000).fadeOut();
-		});
+            form.trigger('submit');
+//		jQuery.post(url, {
+//			action: "send_form",
+//			nonce: UNICAEVENTS_GLOBALS['ajax_nonce'],
+//			type: form.data('formtype'),
+//			data: form.serialize()
+//		}).done(function(response) {
+//			"use strict";
+//			var rez = {};
+//			try {
+//				rez = JSON.parse(response);
+//			} catch (e) {
+//				rez = { error: UNICAEVENTS_GLOBALS['ajax_error'] };
+//				console.log(response);
+//			}
+//			var result = form.find(".result").toggleClass("sc_infobox_style_error", false).toggleClass("sc_infobox_style_success", false);
+//			if (rez.error === '') {
+//				form.get(0).reset();
+//				result.addClass("sc_infobox_style_success").html(UNICAEVENTS_GLOBALS['strings']['send_complete']);
+//			} else {
+//				result.addClass("sc_infobox_style_error").html(UNICAEVENTS_GLOBALS['strings']['send_error'] + ' ' + rez.error);
+//			}
+//			result.fadeIn().delay(3000).fadeOut();
+//		});
 	}
 	return !error;
 }
