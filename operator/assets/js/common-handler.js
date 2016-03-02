@@ -50,7 +50,7 @@ $(document).ready(function(){
     $('.logout').click(function(){ logout(); });
     var loading = $(".messageBox, #messageBox");
     $(document).ajaxStart(function () {
-        loading.append("<img src='images/please-wait-animation.gif' class='loading-image' height='80' width='200' alt='Loading..'/>").css('text-align', 'center');
+        loading.html("<img src='images/please-wait-animation.gif' class='loading-image' height='80' width='200' alt='Loading..'/>").css('text-align', 'center');
     });
 
     $(document).ajaxStop(function () {
