@@ -49,11 +49,11 @@ if(isset($_POST['submit'])){
 <script type="text/javascript">window._wpemojiSettings={baseUrl:"http://s.w.org/images/core/emoji/72x72/",ext:".png",source:{concatemoji:"http://unicaevents.ancorathemes.com/wp-includes/js/wp-emoji-release.min.js?ver=4.3.2"}},!function(e,t,a){function n(e){var a=t.createElement("canvas"),n=a.getContext&&a.getContext("2d");return n&&n.fillText?(n.textBaseline="top",n.font="600 32px Arial","flag"===e?(n.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),a.toDataURL().length>3e3):(n.fillText(String.fromCharCode(55357,56835),0,0),0!==n.getImageData(16,16,1,1).data[0])):!1}function o(e){var a=t.createElement("script");a.src=e,a.type="text/javascript",t.getElementsByTagName("head")[0].appendChild(a)}var i,r;a.supports={simple:n("simple"),flag:n("flag")},a.DOMReady=!1,a.readyCallback=function(){a.DOMReady=!0},a.supports.simple&&a.supports.flag||(r=function(){a.readyCallback()},t.addEventListener?(t.addEventListener("DOMContentLoaded",r,!1),e.addEventListener("load",r,!1)):(e.attachEvent("onload",r),t.attachEvent("onreadystatechange",function(){"complete"===t.readyState&&a.readyCallback()})),i=a.source||{},i.concatemoji?o(i.concatemoji):i.wpemoji&&i.twemoji&&(o(i.twemoji),o(i.wpemoji)))}(window,document,window._wpemojiSettings);</script>
 <style type="text/css"> img.wp-smiley, img.emoji { display: inline !important; border: none !important; box-shadow: none !important; height: 1em !important; width: 1em !important; margin: 0 .07em !important; vertical-align: -0.1em !important; background: none !important; padding: 0 !important; } </style>
 <link rel='stylesheet' id='essential-grid-plugin-settings-css'  href='plugins/essential-grid/public/assets/css/settingsa7f4.css?ver=2.0.8' type='text/css' media='all' />
-<link rel='stylesheet' id='tp-open-sans-css'  href='http://fonts.googleapis.com/css089f.css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800&amp;ver=4.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='tp-raleway-css'  href='http://fonts.googleapis.com/css66da.css?family=Raleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&amp;ver=4.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='tp-droid-serif-css'  href='http://fonts.googleapis.com/css6b4e.css?family=Droid+Serif%3A400%2C700&amp;ver=4.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tp-open-sans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800&amp;ver=4.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tp-raleway-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&amp;ver=4.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tp-droid-serif-css'  href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700&amp;ver=4.3.2' type='text/css' media='all' />
 <link rel='stylesheet' id='sb_instagram_styles-css'  href='plugins/instagram-feed/css/sb-instagram6895.css?ver=1.3.11' type='text/css' media='all' />
-<link rel='stylesheet' id='sb_instagram_icons-css'  href='http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min23c9.css?1&amp;ver=4.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='sb_instagram_icons-css'  href='http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css?1&amp;ver=4.2.0' type='text/css' media='all' />
 <link rel='stylesheet' id='rs-plugin-settings-css'  href='plugins/revslider/public/assets/css/settingsb97d.css?ver=5.0.8.5' type='text/css' media='all' />
 <style id='rs-plugin-settings-inline-css' type='text/css'> #rs-demo-id {} </style>
 <link rel='stylesheet' id='select2-css'  href='plugins/woocommerce/assets/css/select2274c.css?ver=4.3.2' type='text/css' media='all' />
@@ -429,7 +429,7 @@ if(isset($_POST['submit'])){
                <!-- </div> class="content_wrap"> -->			
             </div>
             <!-- </.page_content_wrap> -->
-            
+            <div id="sc_googlemap_519873279" class="sc_googlemap" style="width:100%;height:243px;" data-zoom="10" data-style="style2"><div id="sc_googlemap_519873279_1" class="sc_googlemap_marker" data-title="" data-description="" data-address="<?php echo COMPANY_ADDRESS_GMAP; ?>" data-latlng="" data-point="uploads/2015/11/ico.png"></div></div>
             <?php include('includes/footer.php'); ?>
         </div>	<!-- /.page_wrap -->
     </div>		<!-- /.body_wrap -->
@@ -459,7 +459,7 @@ if(isset($_POST['submit'])){
     <script type='text/javascript'> /* <![CDATA[ */ var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};/* ]]> */ </script>
     <script type='text/javascript' src='js/mediaelement/mediaelement-and-player.min0392.js?ver=2.17.0'></script>
     <script type='text/javascript' src='js/mediaelement/wp-mediaelement274c.js?ver=4.3.2'></script>
-    <script type='text/javascript' src='http://maps.google.com/maps/api/jsee3a?sensor=false'></script>
+    <script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false'></script>
     <script type='text/javascript' src='themes/unicaevents/fw/js/core.googlemap.js'></script>
     <script type='text/javascript' src='themes/unicaevents/fw/js/social/social-share.js'></script>
     <script type='text/javascript' src='themes/unicaevents/fw/js/core.debug.js'></script>

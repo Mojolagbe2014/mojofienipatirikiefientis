@@ -22,12 +22,12 @@
                             <a href="#" class="menu_main_responsive_button icon-menu"></a>
                             <nav class="menu_main_nav_area">
                                 <ul id="menu_main" class="menu_main_nav">
-                                    <li id="menu-item-792" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-792"><a href="#">Home</a></li>
-                                    <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="#">Events</a></li>
-                                <li id="menu-item-1313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1313"><a href="#">About</a></li>
-                                <li id="menu-item-1399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1399"><a href="services/index.html">Services</a></li>
-                                <li id="menu-item-804" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-804"><a href="#">Gallery</a></li>
-                                <li id="menu-item-1578" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1578"><a href="shop/index.html">Contact Us</a></li>
+                                    <li id="menu-item-792" class="menu-item menu-item-type-custom menu-item-object-custom <?php echo $thisPage->active($_SERVER['SCRIPT_NAME'], 'index', 'current-menu-item  current_page_item'); ?> menu-item-792"><a href="<?php echo SITE_URL; ?>">Home</a></li>
+                                    <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom <?php echo $thisPage->active($_SERVER['SCRIPT_NAME'], 'events.php', 'current-menu-item  current_page_item'); ?> menu-item-124"><a href="<?php echo SITE_URL."events/"; ?>">Events</a></li>
+                                <li id="menu-item-1313" class="menu-item menu-item-type-custom menu-item-object-custom <?php echo $thisPage->active($_SERVER['REQUEST_URI'], 'about', 'current-menu-item  current_page_item'); ?> menu-item-1313"><a href="<?php echo SITE_URL."about/"; ?>">About</a></li>
+                                <li id="menu-item-1399" class="menu-item menu-item-type-post_type menu-item-object-page <?php echo $thisPage->active($_SERVER['REQUEST_URI'], 'services', 'current-menu-item  current_page_item'); ?> menu-item-1399"><a href="<?php echo SITE_URL."services/"; ?>">Services</a></li>
+                                <li id="menu-item-804" class="menu-item menu-item-type-custom menu-item-object-custom <?php echo $thisPage->active($_SERVER['REQUEST_URI'], 'gallery', 'current-menu-item  current_page_item'); ?> menu-item-804"><a href="<?php echo SITE_URL."gallery/"; ?>">Gallery</a></li>
+                                <li id="menu-item-1578" class="menu-item menu-item-type-post_type menu-item-object-page <?php echo $thisPage->active($_SERVER['REQUEST_URI'], 'contact', 'current-menu-item  current_page_item'); ?> menu-item-1578"><a href="<?php echo SITE_URL."contact/"; ?>">Contact Us</a></li>
                                 </ul>							
                             </nav>
                         </div>
