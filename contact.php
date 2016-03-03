@@ -48,13 +48,13 @@ if(isset($_POST['submit'])){
 <?php include('includes/meta-tags.php'); ?>
 <script type="text/javascript">window._wpemojiSettings={baseUrl:"http://s.w.org/images/core/emoji/72x72/",ext:".png",source:{concatemoji:"http://unicaevents.ancorathemes.com/wp-includes/js/wp-emoji-release.min.js?ver=4.3.2"}},!function(e,t,a){function n(e){var a=t.createElement("canvas"),n=a.getContext&&a.getContext("2d");return n&&n.fillText?(n.textBaseline="top",n.font="600 32px Arial","flag"===e?(n.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),a.toDataURL().length>3e3):(n.fillText(String.fromCharCode(55357,56835),0,0),0!==n.getImageData(16,16,1,1).data[0])):!1}function o(e){var a=t.createElement("script");a.src=e,a.type="text/javascript",t.getElementsByTagName("head")[0].appendChild(a)}var i,r;a.supports={simple:n("simple"),flag:n("flag")},a.DOMReady=!1,a.readyCallback=function(){a.DOMReady=!0},a.supports.simple&&a.supports.flag||(r=function(){a.readyCallback()},t.addEventListener?(t.addEventListener("DOMContentLoaded",r,!1),e.addEventListener("load",r,!1)):(e.attachEvent("onload",r),t.attachEvent("onreadystatechange",function(){"complete"===t.readyState&&a.readyCallback()})),i=a.source||{},i.concatemoji?o(i.concatemoji):i.wpemoji&&i.twemoji&&(o(i.twemoji),o(i.wpemoji)))}(window,document,window._wpemojiSettings);</script>
 <style type="text/css">img.emoji,img.wp-smiley{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:0 0!important;padding:0!important}</style>
-<link rel='stylesheet' id='essential-grid-plugin-settings-css'  href='plugins/essential-grid/public/assets/css/settingsa7f4.css?ver=2.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='essential-grid-plugin-settings-css'  href='<?php echo SITE_URL; ?>plugins/essential-grid/public/assets/css/settingsa7f4.css?ver=2.0.8' type='text/css' media='all' />
 <link rel='stylesheet' id='tp-open-sans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800&amp;ver=4.3.2' type='text/css' media='all' />
 <link rel='stylesheet' id='tp-raleway-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&amp;ver=4.3.2' type='text/css' media='all' />
 <link rel='stylesheet' id='tp-droid-serif-css'  href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700&amp;ver=4.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='sb_instagram_styles-css'  href='plugins/instagram-feed/css/sb-instagram6895.css?ver=1.3.11' type='text/css' media='all' />
+<link rel='stylesheet' id='sb_instagram_styles-css'  href='<?php echo SITE_URL; ?>plugins/instagram-feed/css/sb-instagram6895.css?ver=1.3.11' type='text/css' media='all' />
 <link rel='stylesheet' id='sb_instagram_icons-css'  href='http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css?1&amp;ver=4.2.0' type='text/css' media='all' />
-<link rel='stylesheet' id='rs-plugin-settings-css'  href='plugins/revslider/public/assets/css/settingsb97d.css?ver=5.0.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='<?php echo SITE_URL; ?>plugins/revslider/public/assets/css/settingsb97d.css?ver=5.0.8.5' type='text/css' media='all' />
 <style id='rs-plugin-settings-inline-css' type='text/css'>#rs-demo-id {} </style>
 <link rel='stylesheet' id='select2-css'  href='<?php echo SITE_URL; ?>plugins/woocommerce/assets/css/select2274c.css?ver=4.3.2' type='text/css' media='all' />
 <link rel='stylesheet' id='woocommerce-layout-css'  href='<?php echo SITE_URL; ?>plugins/woocommerce/assets/css/woocommerce-layout18f6.css?ver=2.4.12' type='text/css' media='all' />
@@ -125,26 +125,24 @@ if(isset($_POST['submit'])){
                                             <div class="sc_form_address column-1_2">
                                                <div class="sc_form_address_field column-1_2 address">
                                                   <span class="sc_form_address_label">Postal Address</span>
-                                                  <span class="sc_form_address_data">Unica Event Agency 85 Fentiman Ave Ottawa,  ON K1S 0T7</span>
+                                                  <span class="sc_form_address_data"><?php echo COMPANY_ADDRESS; ?></span>
                                                </div>
                                                <div class="sc_form_address_field column-1_2 open">
                                                   <span class="sc_form_address_label">Open Hours</span>
-                                                  <span class="sc_form_address_data">Monday – Friday 8.00 am – 5.00 pm, Weekend Closed</span>
+                                                  <span class="sc_form_address_data"><?php echo COMPANY_OPEN_HOURS; ?></span>
                                                </div>
                                                <div class="sc_form_address_field column-1_2 phone">
-                                                  <span class="sc_form_address_label">Phone &amp; E-mail</span>
+                                                  <span class="sc_form_address_label">Phone Numbers</span>
                                                   <span class="sc_form_address_data">
-                                                     Phone: 1-800-64-38<br>Fax: 1-800-64-39<br>
-                                                     <a href="../cdn-cgi/l/email-protection.html#92fbfcf4fdd2f3fcf1fde0f3e6faf7fff7e1bcf1fdff">
-                                                        <span class="__cf_email__" data-cfemail="84edeae2ebc4e5eae7ebf6e5f0ece1e9e1f7aae7ebe9">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
-                                                           /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */
-                                                        </script>
-                                                     </a>
+                                                        <?php echo COMPANY_HOTLINE; ?><br />
+                                                        <?php echo COMPANY_NUMBERS; ?><br />
                                                   </span>
                                                </div>
                                                <div class="sc_form_address_field column-1_2 session">
-                                                  <span class="sc_form_address_label">Sessions</span>
-                                                  <span class="sc_form_address_data">Mornings: 8 am – 12 am, Afternoons: 1 pm – 5 pm, Full Day: 8 am – 5 pm</span>
+                                                  <span class="sc_form_address_label">E-mails</span>
+                                                  <span class="sc_form_address_data"><a href="mailto:<?php echo COMPANY_EMAIL; ?>"><?php echo COMPANY_EMAIL; ?></a><br/>
+                                                        <?php echo COMPANY_OTHER_EMAILS; ?>
+                                                  </span>
                                                </div>
                                             </div><div class="sc_form_fields column-1_2">
                                                <form  id="sc_form_1654304647" data-formtype="form_2" method="post" action="<?php echo SITE_URL."contact/"; ?>">

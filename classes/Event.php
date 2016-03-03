@@ -202,4 +202,19 @@ class Event implements ContentManipulator{
         foreach ($thisReqColVals as $thisReqColVals) { $thisReqColVal = $thisReqColVals[0]; }
         return $thisReqColVal;
     }
+    
+    /**
+     * Method that returns count/total number of all events
+     * @param Object $dbObj Datatbase connectivity object
+     * @param Object $condition Additional optional condition
+     * @return int Number of events
+     */
+    public static function getRawCount($dbObj, $condition=" 1=1 "){
+        $sql = "SELECT * FROM event WHERE $condition ";
+        $count = "";
+        $result = $dbObj->query($sql);
+        $totalData = mysqli_num_rows($result);
+        if($result !== false){ $count = $totalData; }
+        return $count;
+    }
 }

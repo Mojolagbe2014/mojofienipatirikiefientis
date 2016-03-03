@@ -16,7 +16,7 @@
                     <div class="columns_wrap columns_fluid">
                         <div class="column-1_3 contact_logo">
                             <div class="logo">
-                                <a href="<?php echo SITE_URL; ?>"><img src="images/logo.jpg" class="logo_main" alt="" width="182" height="48"><img src="images/logo.jpg" class="logo_fixed" alt="" width="182" height="48"><div class="logo_slogan">Vien Patrick Events</div></a>
+                                <a href="<?php echo SITE_URL; ?>"><img src="<?php echo SITE_URL; ?>images/logo.png" class="logo_main" alt=""><img src="<?php echo SITE_URL; ?>images/logo.png" class="logo_fixed" alt=""><div class="logo_slogan"></div></a>
                             </div>
                         </div><div class="column-2_3 menu_main_wrap">
                             <a href="#" class="menu_main_responsive_button icon-menu"></a>

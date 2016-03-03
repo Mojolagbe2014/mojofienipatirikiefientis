@@ -4,3 +4,25 @@
 .scheme_original .top_panel_title_inner {
     background-color: #1eaace;
 }
+.top_panel_style_3 .page_title {
+    padding: 1.7em 0 1.7em 0;
+}
+.top_panel_title .page_title {
+    font-size: 1.14em;
+}
+.sidebar_outer_logo .logo_main, .top_panel_wrap .logo_main, .top_panel_wrap .logo_fixed {
+    height: 60px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.top_panel_wrap .logo_main {
+    max-height: 300px;
+    width: auto;
+}
+.top_panel_middle .logo {
+    margin-top: 1.2em;
+    margin-bottom: 1.45em;
+}
+.menu_main_nav > li > a {
+   font-size: 13px;
+}
