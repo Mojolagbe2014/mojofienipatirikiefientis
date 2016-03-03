@@ -1,13 +1,13 @@
         <section class="slider_wrap slider_fullscreen slider_engine_revo slider_alias_homepage1">
-           <link href="../fonts.googleapis.com/css0f7c.css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
-           <link href="../fonts.googleapis.com/css160b.css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
-           <link href="../fonts.googleapis.com/cssbb86.css?family=Droid+Serif:400,700" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
+           <link href="http://fonts.googleapis.com/css0f7c.css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
+           <link href="http://fonts.googleapis.com/css160b.css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
+           <link href="http://fonts.googleapis.com/cssbb86.css?family=Droid+Serif:400,700" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
            <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
               <!-- START REVOLUTION SLIDER 5.0.8.5 fullwidth mode -->
               <div id="rev_slider_2_1" class="rev_slider fullwidthabanner tp-overflow-hidden" style="display:none;" data-version="5.0.8.5">
                  <ul>
                     <!-- SLIDE  -->
-                    <li data-index="rs-4" data-transition="fade" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="http://unicaevents.ancorathemes.com/wp-content/uploads/2015/10/Layer-81-100x50.jpg"  data-delay="10000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
+                    <li data-index="rs-4" data-transition="fade" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="<?php echo SITE_URL; ?>uploads/2015/10/Layer-81-100x50.jpg"  data-delay="10000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
                        <!-- MAIN IMAGE -->
                        <img src="uploads/2015/10/Layer-81.jpg"  alt=""  width="1920" height="820" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                        <!-- LAYERS -->
