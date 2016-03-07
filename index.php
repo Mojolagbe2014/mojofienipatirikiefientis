@@ -104,7 +104,7 @@ if(isset($_POST['submit'])){
 <style type="text/css">.esg-grid .mainul li.eg-personal1-wrapper{background-color:#3f424a; padding:0px 0px 0px 0px; border-width:0px 0px 0px 0px; border-radius:0px 0px 0px 0px; border-color:transparent; border-style:none}</style>
 <!-- ESSENTIAL GRID END SKIN CSS -->
 <link href="<?php echo SITE_URL; ?>sweet-alert/sweetalert.css" rel="stylesheet" type="text/css"/>
-<link href="<?php echo SITE_URL; ?>sweet-alert/twitter.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo SITE_URL; ?>sweet-alert/google.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body class="home page page-id-133 page-template-default unicaevents_body body_style_wide body_filled theme_skin_default article_style_stretch layout_single-standard template_single-standard top_panel_show top_panel_above sidebar_hide sidebar_outer_hide wpb-js-composer js-comp-ver-4.8.1 vc_responsive">
@@ -372,7 +372,7 @@ if(isset($_POST['submit'])){
                                           </div><div class="column-1_4 sc_column_item sc_column_item_2 even">
                                              <div class="sc_section">
                                                 <div class="sc_section_inner">
-                                                   <span class="sc_icon icon-contacts_icon2 aligncenter" style="font-size:2.35em; line-height: 1em;color:#ff635c;"></span>
+                                                   <span class="sc_icon icon-contacts_icon3 aligncenter" style="font-size:2.35em; line-height: 1em;color:#ff635c;"></span>
                                                    <h6 class="sc_title sc_title_regular sc_align_center" style="text-align:center;">Phone Numbers</h6>
                                                    <div class="wpb_text_column wpb_content_element ">
                                                       <div class="wpb_wrapper">
@@ -401,7 +401,7 @@ if(isset($_POST['submit'])){
                                           </div><div class="column-1_4 sc_column_item sc_column_item_3 odd">
                                              <div class="sc_section">
                                                 <div class="sc_section_inner">
-                                                   <span class="sc_icon icon-contacts_icon3 aligncenter" style="font-size:2.35em; line-height: 1em;color:#ff635c;"></span>
+                                                   <span class="sc_icon icon-contacts_icon2 aligncenter" style="font-size:2.35em; line-height: 1em;color:#ff635c;"></span>
                                                    <h6 class="sc_title sc_title_regular sc_align_center" style="text-align:center;">Open Hours</h6>
                                                    <div class="wpb_text_column wpb_content_element ">
                                                       <div class="wpb_wrapper">
@@ -475,7 +475,7 @@ if(isset($_POST['submit'])){
             title: '<?php echo $swalTitle; ?>',
             text: '<?php echo $msg; ?>',
             confirmButtonText: "Okay",
-            customClass: 'facebook',
+            customClass: 'google',
             html: true,
             type: '<?php echo $msgStatus; ?>'
         });

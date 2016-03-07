@@ -20,7 +20,7 @@ foreach ($eventObj->fetchRaw("*", " id = $thisEventId ") as $event) {
     foreach ($eventData as $key => $value){
         switch ($key) { 
             case 'image': $eventObj->$key = MEDIA_FILES_PATH1.'event/'.$event[$value];break;
-            case 'status': if($event[$value]==0){$thisPage->redirectTo('index');}break;
+            case 'status': if($event[$value]==0){ header("HTTP/1.0 404 Not Found"); $thisPage->redirectTo($_SERVER['HTTP_REFERER'] ? $_SERVER['HTTP_REFERER'] : SITE_URL.'events/');}break;
             case 'dateTime':    $dateTimeParam = explode(' ', $event[$value]);
                                 $eventTime = $dateTimeParam[1];
                                 $dateParam = explode('/', $dateTimeParam[0]);
